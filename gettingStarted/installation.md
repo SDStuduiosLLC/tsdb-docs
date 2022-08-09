@@ -3,9 +3,17 @@
 ### Deployment Locations
 Now before doing anything, we need to decide where we want to keep this bot hosted.
 
-!> REPLIT AND GLITCH ARE NOT VIABLE. 
+!> **REPLIT AND GLITCH ARE NOT VIABLE**. 
 
 They have set time limits and in general are a pain the backside to setup. 
+
+-----
+
+For this I am presuming you have NVM, Node, Yarn installed. You will need these. 
+
+I would also recommend Nodemon if your testing/developing locally as it means you don't need to keep stopping and starting every time.
+
+**THESE ARE NOT PREINSTALLED ON FRESH LINUX OR WINDOWS MACHINES. YOU MUST INSTALL THEM YOURSELF**
 
 -----
 

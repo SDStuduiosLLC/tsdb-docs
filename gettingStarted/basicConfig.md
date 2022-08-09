@@ -35,6 +35,7 @@ export const config = {
   discord: {
     token:
       "Your Discord bot token",
+    botPrefix: "",
     serverId: "ID of the server the bot is to be linked to",
     logChannel: "ID of the channel (some) logs will be set to",
     staffRole: "ID of the role that STAFF members have",
