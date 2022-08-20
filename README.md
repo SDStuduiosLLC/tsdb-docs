@@ -18,8 +18,9 @@ Now, go check out the sidebar for all the info you would need!
 
 Check out the [getting started](/gettingStarted/installation) section if you've only come here to set up the bot.
 
+
 -----
 
-Now go enjoy coding! 
-
 Made with <3 by [WhizBangPop!](https://whizbangpop.carrd.com) (also the person who made TSAB - my irl name is Summer, just to confuse you :) (jk, ily)
+
+Powered by [Docsify](https://docsify.js.org).
