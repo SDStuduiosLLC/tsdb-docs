@@ -1,6 +1,9 @@
 # Basic Configuration
 
+## Requirements
+
 This is where it could take a while. Make sure you have; 
+- Discord Developer mode enabled
 - A Discord application with bot attached
 - A Discord server with;
   - Logging channel
@@ -15,9 +18,11 @@ Once you have all of this you can goto the `data/config.ts` file and fill in ALL
 
 This step really isn't that hard.
 
+?> It WILL throw an error if you don't fill in the fields in the Discord, MongoDB and Statcord sections. They are required for the bot to work. If you mess with the checks you WILL break things.
+
 ---
 
-#### Template (config.ts)
+## Template - (data/config.ts)
 ```javascript
 export const config = {
   responses: {
@@ -58,3 +63,13 @@ export const config = {
   },
 };
 ```
+
+### Primary Bot Owner
+
+When setting the array of bot owners, set the user you want people to contact if the bot catches on fire. I would set this as yourself, or someone who has agreed to look after the bot after you set it up - no idea how or why this would happen but sure.
+
+## Emoji Usage
+
+In the default bot, there may be some custom emojis linked in embeds. Either remove these or update them with your own as your bot won't be able to access them as they are in my test server, not yours.
+
+If you don't change the emojis, it will not look good as it will just display a bunch of gibberish - e.g. `<:emoji_name:1010261201013440585>`

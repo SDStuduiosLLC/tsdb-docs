@@ -1,12 +1,25 @@
-# Newbie Warning
-?> If you don't know your way around DiscordJS, TypeScript, the command line and other developer type things. This isn't for you. While I try and keep it maintainable, you need to know what you're doing.
+# The Somewhat Awesome Bot
 
-If this is your first time playing around with code wanting a Discord bot. Stop. Try a tutorial, this isn't for you. You will get stuck, and I don't really have the time to help sadly. I want to see people succeed in learning new things, but this isn't the place.
+Hey there! Welcome to the 100% very well written and up-to-date documentation for my open source bot TAB (The Somewhat Awesome Bot - I shortened it because I can't be bothered typing it every time).
 
-If you do choose to endeavour, and you don't understand all of it. I truly hope you succeed, but I probably won't be here to help you. Read the docs, use Google. Apart from that I don't have much to say.
+Here you should find;
+
+- Setup Information
+- Config.ts Template
+- Command Templates
+- Info About the Permissions System
+- & So Much More! (Maybe, No Promises)
+
+## Getting Started
+
+Before anything, check out the [newbies warning](/newbieWarning) if you are new to coding, servers and that typa stuff.
+
+Now, go check out the sidebar for all the info you would need!
+
+Check out the [getting started](/gettingStarted/installation) section if you've only come here to set up the bot.
 
 -----
 
-With that out the way, lets get started!
+Now go enjoy coding! 
 
-For some reason, pagination isn't working [so click here](/gettingStarted/installation.md) or use the sidebar until I fix it. Which I may or may not remember/be bothered to do.
+Made with <3 by [WhizBangPop!](https://whizbangpop.carrd.com) (also the person who made TSAB - my irl name is Summer, just to confuse you :) (jk, ily)

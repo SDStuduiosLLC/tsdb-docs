@@ -5,6 +5,6 @@
     - [Basic Configuration](gettingStarted/basicConfig.md)
     - [Deploying](gettingStarted/deploying.md)
 
-- Advanced
+- Using The Bot
   
-  - [New Relic Monitoring](advanced/newRelicMonitoring.md)
+  - [Creating Commands](usingTheBot/creatingCommands.md)
