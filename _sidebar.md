@@ -1,4 +1,6 @@
 - [Newbies Warning](newbieWarning.md)
+- [v2 Announcment!](v2announcment.md)
+
 - Getting Started
 
     - [Installation](gettingStarted/installation.md)

@@ -44,7 +44,7 @@ export const config = {
     serverId: "ID of the server the bot is to be linked to",
     logChannel: "ID of the channel (some) logs will be set to",
     staffRole: "ID of the role that STAFF members have",
-    adminRole: "ID of the role that ADMIN members have. If you do not have an admin set it to the owner role or create a blank role",
+    botOwners: ['ID of PRIMARY bot owner', 'ID of other bot owners'], // The first ID in the array is the user that clients will be asked to contact if the bot catches on fire.
     shardCount: 1, 
     // Make sure to use only a plain number, doing "1" will just crash it. also "auto" doesnt work for some reason
     // This isn't being used but is still required for checks to pass
@@ -54,6 +54,7 @@ export const config = {
     apiSecret: "Twitter APP API Secret",
     bearerToken: "Twitter APP API Bearer",
     // These are USER keys. Not app keys, also the Twitter code is very buggy rn so don't rely on it
+    // And by that, I mean there is none.
     accessKey: "You don't really need these two ATM",
     accessSecret: "",
   },
@@ -61,6 +62,9 @@ export const config = {
     connectionUri:
       "The connection URI to your mongodb database. Make sure all details are filled in and a database name added",
   },
+  statcord: {
+      apiKey: "" // Obtain an API key from https://statcord.com/add - you will need to link your Discord account
+  }
 };
 ```
 

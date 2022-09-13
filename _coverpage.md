@@ -1,24 +1,18 @@
 <h1 id="cover-heading">
- The Somewhat Decent Bot  <!-- TODO: Update title -->
+ The Somewhat Decent Bot
 </h1>
 
-<!-- [![GitHub tags](https://img.shields.io/github/tag/MichaelCurrin/docsify-js-template.svg)](https://GitHub.com/MichaelCurrin/docsify-js-template/tags/) TODO: Update username and repo name -->
-
->  A bot that does things, I guess. <!-- TODO: Replace with your description -->
-
-
-<!-- TODO: Update to match your project's benefits/features. Git emojis work great here. -->
+>  A bot that does things, I guess. 
 
 
 - :construction: THIS IS STILL WORK IN PROGRESS! :construction:
-- 🛂 Supreme permissions system
-- 📦️ Ships almost fully ready to go
-- ✨ Almost constant updates and development
-- ⚡️ Highly perfomant and typesafe
-- :cloud: Full VPS support - with very small overhead
+- 🛂 Advanced & Secure Permissions System
+- 📦️ Ships (Almost!) Ready Out Of The Box - Just Add Commands!
+- ✨ Regular Updates and Bug Fixes
+- ⚡️Superspeed Performance and With Added Types
+- :cloud: VPS Support - Very Small Overhead and JIT Compilation
 
 
-[Get Started](/gettingStarted/installation.md) <!-- TODO: Use ID of your homepage heading -->
+[Get Started](/gettingStarted/installation.md) 
 
-<!-- TODO: Set your background color or image. -->
 ![color](#5f5151)

@@ -18,9 +18,16 @@ Now, go check out the sidebar for all the info you would need!
 
 Check out the [getting started](/gettingStarted/installation) section if you've only come here to set up the bot.
 
+-----
+
+?> Please note that documentation may be behind or ahead of the active codebase. 
+
+I will try to remember to add a notice if a section is ahead of the live and accessible code.
+
+But don't rely on me doing so.
 
 -----
 
-Made with <3 by [WhizBangPop!](https://whizbangpop.carrd.com) (also the person who made TSAB - my irl name is Summer, just to confuse you :) (jk, ily)
+Made with ❤️ by [WhizBangPop!](https://whizbangpop.carrd.com) (also the person who made TSAB - my irl name is Summer, just to confuse you :) (jk, ily)
 
 Powered by [Docsify](https://docsify.js.org).
