@@ -18,3 +18,7 @@ Here you can find major events along the developments of the v2 command handler,
 
 ### Development Started (0.1.0)
 I've really not done much. Just created a new branch, issue and item on project tracker.
+
+### 0.2.1
+Added slash command registration via 2 scripts. `syncCommands` automatically imports all commands with `slash: true` added to the command config and `manLoadCommands` adds commands based off what you define with the builders.
+**Using either WILL overwrite all existing commands.** Use `manLoadCommands` caution. Deleting slash commands is a royal pain.
