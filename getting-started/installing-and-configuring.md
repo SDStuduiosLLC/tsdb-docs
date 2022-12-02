@@ -64,18 +64,18 @@ export const config = {
   discord: {
     token: "",
     clientId: "",
+    /** String of the prefix used to trigger the bot. Pinging the bot is a WIP at the moment. */
     botPrefix:
-      "" /** String of the prefix used to trigger the bot. Pinging the bot is a WIP at the moment. */,
+      "",
     serverId: "",
     logChannel: "",
     staffRole: "",
-    botOwners: [
-      "",
-    ] /** Array of all bot owners. Set index0 as the main owner/server owner, basically the person you want people to contact when it breaks. */,
+    /** Array of all bot owners. Set index0 as the main owner/server owner, basically the person you want people to contact when it breaks. */
+    botOwners: [""],
+    /** Toggle for message commands. Set to false by default for what should be obvious reasons. Read the DDev docs if you want more info on why. */
     messageCommandsEnabled:
-      false /** Toggle for message commands. Set to false by default for what should be obvious reasons. Read the DDev docs if you want more info on why. */,
-    shardCount: 1, //make sure to use only a plain number, doing "1" will just crash it. also "auto" doesn't work for some reason
-  },
+      false,
+    shardCount: 1, 
   mongo: {
     connectionUri: "",
   },
