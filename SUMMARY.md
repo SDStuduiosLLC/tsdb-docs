@@ -1,3 +1,7 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Welcome!](README.md)
+
+## Getting Started
+
+* [Installing & Configuring](getting-started/installing-and-configuring.md)
