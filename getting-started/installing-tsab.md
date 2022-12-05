@@ -1,4 +1,10 @@
-# Installing & Configuring
+---
+description: >-
+  How to install the required dependencies and configure your instance before
+  deployment.
+---
+
+# Installing TSAB
 
 ### Cloning & Installing
 
