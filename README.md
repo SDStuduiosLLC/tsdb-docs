@@ -4,6 +4,13 @@ Well, I've not got much for an intro - though I will explain what happened to ol
 
 I don't really know! The folders appear to have gotten lost at some point - and they needed a rewrite anyhow, so here we are.
 
+{% hint style="danger" %}
+**There is a known issue causing TSAB instances to crash on the lastest release.**\
+We are working on it - but this could take a while as SDStudios are on break for the next couple months.
+{% endhint %}
+
+
+
 {% hint style="info" %}
 Any commands given should, unless specified otherwise, be run from the **root** of your project. (_path/to/your/project/_The-Somewhat-Awesome-Bot/)\
 \

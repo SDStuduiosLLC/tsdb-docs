@@ -8,7 +8,7 @@ description: How to configure your instance for initial testing and deployment.
 
 Now that we know TSAB installed correctly, it needs to be properly configured. It's pretty easy to do - might just take a bit to get all the keys and tokens you need.
 
-Out of the box, you should be able to find a file called config.example.ts. That's the one you need. Rename it to config.ts. Make sure that Git actually ignores it so you don't accidentally commit ALL of your tokens. I have made that mistake once - and never again!
+Out of the box, you should be able to find a file called config.example.ts inside the data folder. That's the one you need. Rename it to config.ts. Make sure that Git actually ignores it so you don't accidentally commit ALL of your tokens. I have made that mistake once - and never again!
 
 There are somethings missing from the template below as they are not strictly required for your instance to operate & some preconfigured options, we recommend you keep the defaults - except for the responses, make them unique!
 
