@@ -2,7 +2,7 @@
 description: How to configure your instance for initial testing and deployment.
 ---
 
-# Initial Configuration
+# 🔧 Initial Configuration
 
 ### Configuring TSAB Instance
 
@@ -28,24 +28,40 @@ export const config = {
   discord: {
     token: "",
     clientId: "",
-    /** String of the prefix used to trigger the bot. Pinging the bot is a WIP at the moment. */
     botPrefix:
-      ">>",
+      "" /** String of the prefix used to trigger the bot. Pinging the bot is a WIP at the moment. */,
     serverId: "",
     logChannel: "",
     staffRole: "",
-    /** Array of all bot owners. Set index0 as the main owner/server owner, basically the person you want people to contact when it breaks. */
-    botOwners: [""],
-    /** Toggle for message commands. Set to false by default for what should be obvious reasons. Read the DDev docs if you want more info on why. */
+    botOwners: [
+      "",
+    ] /** Array of all bot owners. Set index0 as the main owner/server owner, basically the person you want people to contact when it breaks. */,
     messageCommandsEnabled:
-      false,
-    shardCount: 1, 
+      false /** Toggle for message commands. Set to false by default for what should be obvious reasons. Read the DDev docs if you want more info on why. */,
+    shardCount: 1, //make sure to use only a plain number, doing "1" will just crash it. also "auto" doesn't work for some reason
+    /** Discord Permissions Int */
+    permsInt: "607448176",
+  },
+  mongo: {
+    connectionUri: "",
+  },
   statcord: {
     apiKey: "",
   },
   tsabLoggerSetting: {
-    logFilePath: "data/tsab.log", // full path from root of project
+    /** File path of desired log file. Defaults to data/tsab.log if not specified or valid */
+    logFilePath: "",
+    /** Discord Webhook for sending logs to */
     loggingWebhook: "",
   },
+  tsabApi: {
+    /** Port that the API will run on. Defaulted to 3000 */
+    apiPort: 3000,
+    /** Domain the API will be accessed through. Used for callbacks and such. Default of localhost */
+    domain: "localhost",
+    /** Authentication key used to validate requests to protected endpoints. */
+    auth: "CHANGEME!",
+  },
 }
+
 ```
